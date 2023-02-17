@@ -1,0 +1,14 @@
+{
+  "name": "servers",
+  "version": "1.0.0",
+  "description": "Playing around the servers",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Midhun",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
