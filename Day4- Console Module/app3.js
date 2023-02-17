@@ -1,0 +1,8 @@
+console.count('loop')
+console.count('loop')
+console.count('loop')
+console.count('loop')
+console.count('loop')
+console.count('default') 
+console.countReset()
+console.count()
