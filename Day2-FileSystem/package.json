@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "name": "day2--filesystem",
+  "version": "1.0.0",
+  "description": "Playing around with fs module",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Midhun",
+  "license": "ISC"
+}
