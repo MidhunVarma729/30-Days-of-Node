@@ -6,12 +6,12 @@ const output = fs.createWriteStream('./stdout.log');
 
 const errOutput = fs.createWriteStream('./stderr.log');
 
-const print = new Console(output, errOutput);
+const printf = new Console(output, errOutput);
 
-const mis = 112015168;
+const mis = 112015188;
 
-print.log('MIS number: %d', mis);
+printf.log('MIS number: %d', mis);
 
-print.log('This will be stored in a file.')
+printf.log('This will be stored in a file.')
 
-console.clear()
+// console.clear()

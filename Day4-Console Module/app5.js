@@ -1,16 +1,19 @@
-console.time('division');
+const console = require("console")
+const fs = require('fs')
 
+const stdout = fs.createWriteStream('output.txt')
+const stderr = fs.createWriteStream('errors.txt')
+
+const printf = new console.Console(stdout, stderr);
+printf.time();
 var x = 10;
-
 var y = 200;
-
 var result = y/x;
-
 if(result == 2){
-    console.log("Result : %d", result)
+    printf.log("Result : %d", result)
 }else{
-    console.log("Result : " + result);
-    console.warn('Warning: Decimal number');
+    printf.log("Result : " + result);
+    printf.warn('Warning: Decimal number');
 }
 
-console.timeEnd('division');
+printf.timeEnd();
