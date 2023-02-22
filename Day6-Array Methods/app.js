@@ -1,9 +1,6 @@
 // var fruits = ["orange", "apple", "banana"];
 // console.log(fruits);
 
-// var len = fruits.length;
-// console.log(len);
-
 var veggies = new Array(3);
 veggies = ["mushroom", "capsicum", "tomato", "onion"]
 console.log(veggies);
@@ -88,3 +85,9 @@ var palmFarm = onlyPalm.reduce((element, total)=>{
 })
 
 console.log(palmFarm);
+
+// splice method
+
+var opm = ['Saitama', 'Genos', 'Fubuki', 'Bang', 'Charanko'];
+opm.splice(3, 1, 'Atomic Samurai', 'Zombieman');
+console.log(opm)
