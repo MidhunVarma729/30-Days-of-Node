@@ -3,9 +3,10 @@
 var water = ['Squirtle', 'Wartortle', 'Blastoise', 'Psyduck', 'Golduck', 'Poliwag', 'Poliwhirl', 'Seel', 'Shellder', 'Krabby', 'Kingler'];
 var fire = ['Charmander', 'Charmander', 'Charizard', 'Torchic', 'Blaziken', 'Camerupt'];
 var electric = ['Raichu', 'Pikachu', 'Zapdos', 'Rotom', 'Mareep', 'Electabuzz'];
+var grass = ['Bulbasaur', 'Ivysaur', 'Venusaur', 'Chikorita', 'Snivy', 'Bayleef']
 
-var allPokemon = [water, fire, electric];
-console.log(allPokemon)
+var allPokemon = [water, fire, electric, grass];
+// console.log(allPokemon)
 
 var wildPokemon = function(){
     let randomType = Math.floor(Math.random()*allPokemon.length);
@@ -13,7 +14,7 @@ var wildPokemon = function(){
     return allPokemon[randomType][randomPokemon];
 }
 
-console.log(wildPokemon());
+// console.log(wildPokemon());
 
 module.exports = {
     aWildPokemonAppears : wildPokemon,
