@@ -4,7 +4,7 @@ const {Buffer} = require('node:buffer');
 
 privK = {
     key: fs.readFileSync('priv.key').toString(),
-    passphrase: 'nodejsera ',
+    passphrase: 'nodejsera',
 }
 
 console.log(privK)
