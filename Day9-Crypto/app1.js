@@ -2,7 +2,7 @@ var crypto = require('crypto');
 var fs = require('fs');
 
 // Reading the message data
-var file_data = fs.ReadStream('message.txt')
+var file_data = fs.createReadStream('message.txt')
 // console.log(data)
 
 var hash;
